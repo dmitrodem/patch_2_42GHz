@@ -1,0 +1,11 @@
+SetFacePreservationLevel 1836 1
+CurvedSurfaceFacetingControl -1 5
+ApplyCurvlinearMesh -1 0
+SetBodyDefeatureLength -1 -1
+UseDynamicSurfaceResolution 0
+EnableTauFlexMeshing 0
+UseAlternativeMeshFallBack 1
+AllowPhiForLayeredGeometry 1
+
+MakeInitialMesh
+WriteMesh

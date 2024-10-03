@@ -1,0 +1,25 @@
+$begin 'Ports'
+	$begin 'Port'
+		Name='u142_0711_201_1_1'
+		X=-1.07204e-19
+		Y=8.04027e-20
+		Z=0.003
+		NormalX=0
+		NormalY=0
+		NormalZ=1
+		BBoxLowX=-0.00225
+		BBoxLowY=-0.00225
+		BBoxLowZ=0.003
+		BBoxHighX=0.00225
+		BBoxHighY=0.00225
+		BBoxHighZ=0.003
+		$begin 'Terminals'
+			$begin 'Terminal'
+				Name='u142_0711_201_1_center_pin_T1'
+				X=-1.50755e-20
+				Y=-3.0151e-20
+				Z=0.003
+			$end 'Terminal'
+		$end 'Terminals'
+	$end 'Port'
+$end 'Ports'

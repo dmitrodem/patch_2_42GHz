@@ -1,0 +1,92 @@
+$begin 'ModelDrawAttributes'
+	Scale=0.001
+	IsEncryptedHidden=false
+	ComponentOutline='NoOutline'
+	BoxMin[3: -2.25, -2.25, 0]
+	BoxMax[3: 2.25, 2.25, 3]
+	$begin 'DrawAttributes'
+		$begin 'ObjectDrawAttributes'
+			BodyType='SolidBody'
+			ID=10
+			PartName='center_pin'
+			MaterialName='u142_0711_201_1:pec'
+			SurfaceMaterialName=''
+			AssignmentName=''
+			Transparency=0
+			Red=0.560784
+			Green=0.686275
+			Blue=0.560784
+			WireFrame=false
+			Modeled=true
+			HasRadBnd=false
+			IsHidden=false
+			IsMeshRegion=false
+			BoxMin[3: -0.75, -0.75, 0]
+			BoxMax[3: 0.75, 0.75, 3]
+		$end 'ObjectDrawAttributes'
+		$begin 'ObjectDrawAttributes'
+			BodyType='SolidBody'
+			ID=205
+			PartName='outer_shell'
+			MaterialName='u142_0711_201_1:pec'
+			SurfaceMaterialName=''
+			AssignmentName=''
+			Transparency=0
+			Red=0.560784
+			Green=0.686275
+			Blue=0.560784
+			WireFrame=false
+			Modeled=true
+			HasRadBnd=false
+			IsHidden=false
+			IsMeshRegion=false
+			BoxMin[3: -2.25, -2.25, 0]
+			BoxMax[3: 2.25, 2.25, 3]
+		$end 'ObjectDrawAttributes'
+		$begin 'ObjectDrawAttributes'
+			BodyType='SolidBody'
+			ID=639
+			PartName='dielectric'
+			MaterialName='u142_0711_201_1:vacuum'
+			SurfaceMaterialName=''
+			AssignmentName=''
+			Transparency=0.8
+			Red=0.560784
+			Green=0.686275
+			Blue=0.560784
+			WireFrame=false
+			Modeled=true
+			HasRadBnd=false
+			IsHidden=false
+			IsMeshRegion=false
+			BoxMin[3: -1.72725, -1.72725, 0]
+			BoxMax[3: 1.72725, 1.72725, 3]
+		$end 'ObjectDrawAttributes'
+		$begin 'ObjectDrawAttributes'
+			BodyType='SheetBody'
+			ID=834
+			PartName='port'
+			MaterialName='u142_0711_201_1:vacuum'
+			SurfaceMaterialName=''
+			AssignmentName='Wave Port'
+			Transparency=0
+			Red=0.560784
+			Green=0.686275
+			Blue=0.560784
+			WireFrame=false
+			Modeled=true
+			HasRadBnd=false
+			IsHidden=false
+			IsMeshRegion=false
+			BoxMin[3: -2.25, -2.25, 3]
+			BoxMax[3: 2.25, 2.25, 3]
+		$end 'ObjectDrawAttributes'
+	$end 'DrawAttributes'
+$end 'ModelDrawAttributes'
+$begin 'ModelDrawData'
+	hid=false
+	center_pin(vis=true, wir=false, trn=0, col=9351054, cst=1, mdl=true)
+	outer_shell(vis=true, wir=false, trn=0, col=9351054, cst=1, mdl=true)
+	dielectric(vis=true, wir=false, trn=0.8, col=9351054, cst=1, mdl=true)
+	port(vis=true, wir=false, trn=0, col=9351054, cst=1, mdl=true)
+$end 'ModelDrawData'

@@ -1,0 +1,17 @@
+$begin 'Ports'
+	$begin 'Port'
+		Name='132415_2023_1_1'
+		X=-0.00889
+		Y=-6.10087e-51
+		Z=6.00747e-83
+		NormalX=1
+		NormalY=-6.12323e-17
+		NormalZ=-1.60812e-16
+		BBoxLowX=-0.00889
+		BBoxLowY=-0.00175
+		BBoxLowZ=-0.00175
+		BBoxHighX=-0.00889
+		BBoxHighY=0.00175
+		BBoxHighZ=0.00175
+	$end 'Port'
+$end 'Ports'
